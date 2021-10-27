@@ -1,0 +1,412 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 1150px;
+    /* background-image: url(https://img1.fonwall.ru/o/gf/cracks-red-black.jpg) ; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+
+.resume{
+    /* position: relative; */
+}
+
+
+.cont{
+    margin-top: 70px;
+    margin-left: 360px;
+    height: 180px;
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+    /* display: block; */
+}
+
+
+.block{
+    width: 200px;
+    height: 30px;
+    background-color: rgb(255, 0, 0);
+    /* box-shadow: gainsboro 7px 7px; */
+    border-radius: 3px;
+    
+
+}
+
+
+.myinfo h1{
+    color:white;
+    float: left;
+    font-size: 26px;
+    margin-left:60px;
+    margin-top: 30px;
+    font-family: fantasy;
+    letter-spacing: 0.5px;
+    text-shadow: red 2px 2px;
+
+}
+
+.border{
+    border: 3px red solid;
+    border-radius: 10px;
+    float: right;
+    /* margin-top: 20px; */
+    margin-right: 50px;
+    height: 105px;
+    width: 315px;
+
+    transform: skew(-4deg);
+
+}
+
+.border p{
+    color: white;
+    font-size: 25px;
+    margin-left: 90px;
+    font-family: fantasy;
+    letter-spacing: 3px;
+    margin-bottom: -32px;
+    
+    transform: skew(4deg);
+}
+
+
+
+
+.myimg img{
+
+    width: 340px;
+    height: 320px;
+    float: left;
+    margin-top: 103px;
+    position: absolute;
+}
+
+
+.cont p{
+    text-align: center;
+    margin-top: 5px;
+    text-shadow:red 1px 1px; 
+}
+
+
+.about{
+
+    margin-top: 45px;
+    width: 334.5px;
+    /* background-color: rgb(220, 220, 220); */
+    background-color: red;
+    height: 273px;
+    margin-left: 690px;
+    float: right;
+    padding-bottom: 25px;
+}
+
+.about h4{
+    font-size: 14.5px;
+    margin-top: 10px;
+    margin-left: 15px;
+    width: 305px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.skillang{
+
+    
+    height: 300px;
+    width: 339.5px;
+    float: left;
+    background-color: rgb(255, 0, 0);
+}
+
+
+.skills b{
+    font-size: 10px;
+}
+
+.skillang h1{
+    font-size: 25px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  padding: 0;
+}
+
+
+
+.dot2 {
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+
+
+
+
+.interests{
+
+
+    background-color: black;
+    float: right;
+    height: 300px;
+    width: 335px;
+    
+}
+
+.interests h1{
+    font-size: 25px;
+    color: white;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.interests li {
+    color: white;
+    font-size: 15px;
+    margin-left: -25px;
+    margin-bottom: 26px;
+}
+
+.interests a{
+    text-decoration: none;
+}
+
+.interests a:hover{
+    color: red;
+    transition: 0.8s;
+}
+
+
+.contact{
+
+    float: left;
+    height: 320px;
+    width: 340px;
+    background-color: black;
+    margin-left: 360px;
+
+    
+}
+
+
+
+.contact h1{
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.contact p{
+    font-size: 10px;
+    padding: 0;
+    margin-bottom: 24px;
+}
+
+.contact b{
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: large;
+    margin-left: 5px;
+    margin-bottom: 20px;
+
+}
+
+
+
+.contact a:hover{
+
+    transition: 0.8s;
+    color: red;
+
+}
+
+.contact p a{
+    text-decoration: none;
+}
+
+
+
+
+.logo{
+
+    float: right;
+    background-color: red;
+    height: 320px;
+    margin-right: 314px;
+    width: 335px;
+
+}
+
+
+
+
+@media only screen and (max-width: 600px){
+
+
+    body{
+        padding: 0;
+        margin: 0;
+        /* background-image: url(https://img1.fonwall.ru/o/gf/cracks-red-black.jpg) ; */
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    
+    }
+    
+    
+    
+.cont{
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 200px;
+    width: 95%;
+    background-color: rgb(0, 0, 0);
+    display: block;
+}
+
+
+.block{
+    width: 120px;
+    height: 20px;
+    background-color: rgb(255, 0, 0);
+    /* box-shadow: gainsboro 7px 7px; */
+    border-radius: 3px;
+
+}
+
+
+.myinfo h1{
+    color:gainsboro;
+    float: left;
+    font-size: 22px;
+    margin-left:20px;
+    margin-top: 60px;
+    font-family: fantasy;
+    letter-spacing: 0.5px;
+    text-shadow: red 2px 2px;
+}
+
+
+
+.border{
+    border: 2px red solid;
+    border-radius: 12px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 30px;
+    height: 120px;
+    width: 220px;
+
+    transform: skew(-1deg);
+
+}
+
+
+.border p{
+    color: gainsboro;
+    font-size: 20px;
+    font-family: fantasy;
+    letter-spacing: 2px;
+    margin: -45px;
+    margin-left: 20px;
+}
+
+
+
+.myimg img{
+    text-align: center;
+    width: 325px;
+    height: 325px;
+    float: left;
+    margin-left: 70px;
+    margin-top: 220px;
+    /* margin-left: 50px; */
+    position: absolute;
+}
+
+
+
+.about{
+
+    margin-top: 450px;
+    width: 460px;
+    background-color: rgb(220, 220, 220);
+    height: 360px;
+    float: left;
+    margin-left: 1px;
+}
+
+
+
+
+
+.skillang{
+
+    height: 475px;
+    width: 460px;
+    float: left;
+    margin-left: 1px;
+    background-color: rgb(255, 0, 0);
+}
+
+
+
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  
+  
+  .dot2 {
+      height: 15px;
+      width: 15px;
+      background-color: white;
+      border-radius: 50%;
+      display: inline-block;
+    }
+    
+
+
+
+
+
+
+
+.contact{
+    float: right;
+    height: 465px;
+    width: 460px;
+    background-color: rgb(0, 0, 0);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
